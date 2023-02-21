@@ -20,7 +20,6 @@ h2 {
     margin: 20px 70px 20px 70px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: 230px 330px 325px;
     grid-template-areas: 
     "aa bb"
     "aa cc"
@@ -63,17 +62,6 @@ h2 {
     border: 5px;
 }
 
-@media(max-width: 500px){
-    .container {
-        grid-template-areas: 
-        "aa"
-        "aa"
-        "aa"
-        "bb"
-        "cc"
-        "dd";
-    }
-}
 @media(max-width: 900px){
     .container {
         grid-template-areas: 
