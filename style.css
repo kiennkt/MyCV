@@ -5,12 +5,19 @@ body {
 p {
     margin-inline-start: 30px;
 }
-h3{
-    margin-inline-start: 20px;
-}
 h2 {
     margin-inline-start: 20px;
+    cursor: pointer;
+    transition: 0.5s;
 }
+h2:hover {
+    color: #fff;
+    text-shadow: 0 0 5px blue,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+
 .box {
     box-shadow: 5px 5px 30px -10px rgba(0,0,0,0.75);
     border-radius: 25px;
@@ -58,29 +65,30 @@ h2 {
     color: #009688;
     border-radius: 10%;
     width: 30px;
-    border: 5px;
+    border: 20px;
+    transition: 0.5s;
 }
-
+button:hover {
+    color: #fff;
+    text-shadow: 0 0 5px blue,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
 
 @media(max-width: 800px){
     .avatar img{
         width: 230px;
     }
     .container {
-        grid-template-areas: 
-        "aa"
-        "aa"
-        "aa"
-        "bb"
-        "cc"
-        "dd";
+        margin: 10px 10px 10px 10px;
     }
 }
-@media(max-width: 420px){
+@media(max-width: 510px){
     .avatar img{
-        width: 200px;
-        -webkit-mask-size: 300px 300px;
-        mask-size: 200px 200px;
+        width: 210px;
+        -webkit-mask-size: 350px 350px;
+        mask-size: 350px 350px;
     }
     .container {
         margin: 10px 10px 10px 10px;
