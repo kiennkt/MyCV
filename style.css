@@ -76,7 +76,7 @@ h2 {
         "dd";
     }
 }
-@media(max-width: 400px){
+@media(max-width: 420px){
     .avatar img{
         width: 200px;
         -webkit-mask-size: 300px 300px;
