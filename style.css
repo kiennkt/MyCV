@@ -83,7 +83,7 @@ h2 {
         mask-size: 200px 200px;
     }
     .container {
-        margin: auto;
+        margin: 10px 10px 10px 10px;
         grid-template-areas: 
         "aa"
         "aa"
