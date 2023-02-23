@@ -35,7 +35,6 @@ h2 {
     mask-repeat: no-repeat;
     -webkit-mask-size: 400px 400px;
     mask-size: 400px 400px;
-
 }
 
 .Avatar {
@@ -62,7 +61,27 @@ h2 {
     border: 5px;
 }
 
-@media(max-width: 900px){
+
+@media(max-width: 800px){
+    .avatar img{
+        width: 250px;
+    }
+    .container {
+        grid-template-areas: 
+        "aa"
+        "aa"
+        "aa"
+        "bb"
+        "cc"
+        "dd";
+    }
+}
+@media(max-width: 400px){
+    .avatar img{
+        width: 200px;
+        -webkit-mask-size: 300px 300px;
+        mask-size: 200px 200px;
+    }
     .container {
         grid-template-areas: 
         "aa"
