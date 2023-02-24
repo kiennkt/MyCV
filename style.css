@@ -8,7 +8,7 @@ p {
 h2 {
     margin-inline-start: 20px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 h2:hover {
     color: #fff;
@@ -21,7 +21,7 @@ h2:hover {
 .box {
     box-shadow: 5px 5px 30px -10px rgba(0,0,0,0.75);
     border-radius: 25px;
-    background-color: beige;
+    background-color: honeydew;
 }
 .container {
     margin: 20px 70px 20px 70px;
@@ -78,7 +78,9 @@ button:hover {
 
 @media(max-width: 800px){
     .avatar img{
-        width: 230px;
+        width: 80%;
+        -webkit-mask-size: 350px 350px;
+        mask-size: 350px 350px;
     }
     .container {
         margin: 10px 10px 10px 10px;
