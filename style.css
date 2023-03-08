@@ -36,7 +36,7 @@ h2:hover {
     row-gap: 10px;
 }
 .avatar img{
-    border-radius: 30%;
+    border-radius: 25%;
     -webkit-mask-image: url(images/mask-image.png);
     mask-image: url(images/mask-image.png);
     -webkit-mask-repeat: no-repeat;
@@ -71,7 +71,7 @@ h2:hover {
 }
 button:hover {
     color: #fff;
-    text-shadow: 0 0 5px #03e9f4,
+    text-shadow: 0 0 5px blue,
     0 0 25px #03e9f4,
     0 0 50px #03e9f4,
     0 0 100px #03e9f4;
